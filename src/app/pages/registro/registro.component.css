@@ -1,0 +1,60 @@
+.a {
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.formulario {
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.form-label {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0px 0px 5px #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.btn-primary:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .form-label, .form-control, .btn-primary {
+        width: 100%;
+        text-align: left;
+    }
+
+    .form-label {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
